@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEPT</title>
+  <link rel="stylesheet" href="./src/css/main.css">
+  <link rel="shortcut icon" href="./src/imgs/icons/dept-favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-wrapper">
+
+      <div class="navbar-pane">
+        <div class="logo-container">
+          <a tabindex=0 href="/">
+            <svg height="20px" viewBox="0 0 705 200" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M179.668 97.8807C179.668 48.2514 152.575 10.0165 83.7008 10.0165H10.0165V185.745H83.7008C152.575 185.745 179.668 147.51 179.668 97.8807ZM129.532 97.8807C129.532 132.571 110.035 145.485 82.9417 145.485H57.8734V50.2771H82.9417C110.035 50.2771 129.532 63.1908 129.532 97.8807Z"
+                fill="inherit" />
+              <path
+                d="M191.129 185.745H330.395V145.738H238.986V115.606H319.253V77.6237H238.986V50.0239H328.116V10.0165H191.129V185.745Z"
+                fill="inherit" />
+              <path
+                d="M492.513 71.0405C492.513 26.7284 464.153 10.0165 420.094 10.0165H343.877V185.745H391.734V132.065H420.094C464.153 132.065 492.513 115.352 492.513 71.0405ZM442.884 71.0405C442.884 88.259 434.781 95.3489 415.283 95.3489H391.734V46.7321H415.283C434.781 46.7321 442.884 53.822 442.884 71.0405Z"
+                fill="inherit" />
+              <path d="M497.736 51.0367H553.188V185.745H601.045V51.0367H656.498V10.0165H497.736V51.0367Z"
+                fill="inherit" />
+              <path
+                d="M636.613 161.142C636.613 177.044 649.486 189.918 665.39 189.918C681.292 189.918 694.293 177.044 694.293 161.142C694.293 145.24 681.292 132.24 665.39 132.24C649.486 132.24 636.613 145.24 636.613 161.142ZM642.166 161.142C642.166 148.016 652.515 137.288 665.39 137.288C678.26 137.288 688.738 148.016 688.738 161.142C688.738 174.268 678.26 184.869 665.39 184.869C652.515 184.869 642.166 174.268 642.166 161.142ZM651.884 175.404H660.969V165.559H666.148L671.572 175.404H681.417L674.853 163.792C677.885 162.53 680.152 159.123 680.152 155.336C680.152 148.647 675.862 145.492 668.54 145.492H651.884V175.404ZM670.939 155.462C670.939 157.86 669.43 158.871 666.524 158.871H660.969V152.559H666.524C669.43 152.559 670.939 153.317 670.939 155.462Z"
+                fill="inherit" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="navbar-pane navbar-pane__right-pane">
+        <ul class="navbar-items-list">
+          <a class="navbar-item" tabindex=0 href="">
+            <li>work</li>
+          </a>
+          <a class="navbar-item" tabindex=0 href="">
+            <li>culture</li>
+          </a>
+          <a class="navbar-item" tabindex=0 href="">
+            <li>services</li>
+          </a>
+          <a class="navbar-item" tabindex=0 href="">
+            <li>insights</li>
+          </a>
+          <a class="navbar-item" tabindex=0 href="">
+            <li>careers</li>
+          </a>
+          <a class="navbar-item" tabindex=0 href="">
+            <li>contact</li>
+          </a>
+        </ul>
+        <div id="menu-button" tabindex="0">
+          <svg class="navbar-item" width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <circle class="dot-3" cx="9" cy="20.5" r="3.5" fill="inherit"></circle>
+            <circle class="dot-2" cx="20" cy="20.5" r="3.5" fill="inherit" stroke-width="0"></circle>
+            <circle class="dot-1" cx="31" cy="20.5" r="3.5" fill="inherit"></circle>
+            <path class="close__cross" d="M12.78 12.781L27.216 27.22M27.217 12.781L12.779 27.22" stroke="inherit"
+              stroke-width="1.3"></path>
+          </svg>
+        </div>
+
+      </div>
+    </div>
+    <aside class="menu">
+      <div class="countries-side-panel">
+        <span class="countries-side-panel-label">
+          landen
+        </span>
+        <ul class="menu-countries-list">
+          <li class="country-item">global</li>
+          <li data-country-item="active" class="country-item">nederland</li>
+          <li class="country-item">united states</li>
+          <li class="country-item">ireland</li>
+          <li class="country-item">united kingdom</li>
+          <li class="country-item">deutschland</li>
+          <li class="country-item">schweiz</li>
+        </ul>
+      </div>
+      <ul class="menu-items-list">
+        <a tabindex='0' class="menu-item" href="">
+          <li>home</li>
+        </a>
+        <a tabindex='0' class="menu-item" href="">
+          <li>work</li>
+        </a>
+        <a tabindex='0' class="menu-item" href="">
+          <li>culture</li>
+        </a>
+        <a tabindex='0' class="menu-item" href="">
+          <li>services</li>
+        </a>
+        <a tabindex='0' class="menu-item" href="">
+          <li>partners</li>
+        </a>
+        <a tabindex='0' class="menu-item" href="">
+          <li>stories</li>
+        </a>
+        <a tabindex='0' class="menu-item" href="">
+          <li>insights</li>
+        </a>
+        <a tabindex='0' class="menu-item" href="">
+          <li>careers</li>
+        </a>
+        <a tabindex='0' class="menu-item" href="">
+          <li>events</li>
+        </a>
+        <a tabindex='0' class="menu-item" href="">
+          <li>contact</li>
+        </a>
+      </ul>
+    </aside>
+  </nav>
+  <main>
+    <header>
+      <div class="card">
+        <p class="card-subtitle">work</p>
+        <h1 class="card-title">A selection of projects that <strong>pioneer tech</strong> and <strong>marketing</strong>
+          to help brands stay ahead.</h1>
+      </div>
+      <img src="./src/imgs/hero.webp" alt="dept-hero">
+    </header>
+  </main>
+  <div class="content">
+    <section id="cases-section">
+      <div class="filter-bar">
+        <p class="filter">
+          <span class="filter-label">Show me</span>
+          <select id='category-filter' class="filter-input">
+            <option value="all">all work</option>
+          </select>
+        </p>
+        <p class="filter">
+          <span class="filter-label">in</span>
+          <select id='industries-filter' class="filter-input">
+            <option value="all">all industries</option>
+          </select>
+        </p>
+      </div>
+      <div class="cases-list">
+
+      </div>
+
+    </section>
+    <section id="clients-section">
+      <h3 class="clients-title">clients</h3>
+      <p class="clients-subtitle">We value a great working relationship with our clients above all else. It’s why they
+        often come to our parties. It’s also why we’re able to challenge and inspire them to reach for the stars.
+      </p>
+      <div class="clients-logos-list">
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/levis.webp" alt="levis logo">
+        </div>
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/netflix.webp" alt="netflix logo">
+        </div>
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/patagonia.webp" alt="patagonia logo">
+        </div>
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/fujitsu.webp" alt="fujitsu logo">
+        </div>
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/audi.webp" alt="audi">
+        </div>
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/triumph.webp" alt="triumph logo">
+        </div>
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/asos.webp" alt="asos logo">
+        </div>
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/takeaway.webp" alt="takeaway logo">
+        </div>
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/adyen.webp" alt="adyen logo">
+        </div>
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/google.webp" alt="google logo">
+        </div>
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/tesla.webp" alt="tesla logo">
+        </div>
+        <div class="client-logo">
+          <img loading="lazy" src="./src/imgs/logos/spotify.webp" alt="spotify logo">
+        </div>
+      </div>
+    </section>
+    <section id="form-section">
+      <div class="form-title">
+        question?
+        <br>
+        we are here to help!
+      </div>
+      <form action="">
+        <div class="input-wrapper name-input-wrapper">
+          <label for="name">name</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="input-wrapper email-input-wrapper">
+          <label for="email">email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="input-wrapper message-input-wrapper">
+          <label for="message">message</label>
+          <textarea name="message" id="message" cols="30" rows="7"></textarea>
+        </div>
+        <div class="button-wrapper">
+
+          <button type="submit">send</button>
+        </div>
+      </form>
+    </section>
+    <section id="footer-section">
+
+      <footer>
+        <div class="footer-pane">
+          <div class="logo-container">
+            <svg height="20px" viewBox="0 0 705 200" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M179.668 97.8807C179.668 48.2514 152.575 10.0165 83.7008 10.0165H10.0165V185.745H83.7008C152.575 185.745 179.668 147.51 179.668 97.8807ZM129.532 97.8807C129.532 132.571 110.035 145.485 82.9417 145.485H57.8734V50.2771H82.9417C110.035 50.2771 129.532 63.1908 129.532 97.8807Z"
+                fill="inherit" />
+              <path
+                d="M191.129 185.745H330.395V145.738H238.986V115.606H319.253V77.6237H238.986V50.0239H328.116V10.0165H191.129V185.745Z"
+                fill="inherit" />
+              <path
+                d="M492.513 71.0405C492.513 26.7284 464.153 10.0165 420.094 10.0165H343.877V185.745H391.734V132.065H420.094C464.153 132.065 492.513 115.352 492.513 71.0405ZM442.884 71.0405C442.884 88.259 434.781 95.3489 415.283 95.3489H391.734V46.7321H415.283C434.781 46.7321 442.884 53.822 442.884 71.0405Z"
+                fill="inherit" />
+              <path d="M497.736 51.0367H553.188V185.745H601.045V51.0367H656.498V10.0165H497.736V51.0367Z"
+                fill="inherit" />
+              <path
+                d="M636.613 161.142C636.613 177.044 649.486 189.918 665.39 189.918C681.292 189.918 694.293 177.044 694.293 161.142C694.293 145.24 681.292 132.24 665.39 132.24C649.486 132.24 636.613 145.24 636.613 161.142ZM642.166 161.142C642.166 148.016 652.515 137.288 665.39 137.288C678.26 137.288 688.738 148.016 688.738 161.142C688.738 174.268 678.26 184.869 665.39 184.869C652.515 184.869 642.166 174.268 642.166 161.142ZM651.884 175.404H660.969V165.559H666.148L671.572 175.404H681.417L674.853 163.792C677.885 162.53 680.152 159.123 680.152 155.336C680.152 148.647 675.862 145.492 668.54 145.492H651.884V175.404ZM670.939 155.462C670.939 157.86 669.43 158.871 666.524 158.871H660.969V152.559H666.524C669.43 152.559 670.939 153.317 670.939 155.462Z"
+                fill="inherit" />
+            </svg>
+          </div>
+          <ul class="footer-block">
+            <li tabindex="0" class="footer-item">work</li>
+            <li tabindex="0" class="footer-item">service</li>
+            <li tabindex="0" class="footer-item">stories</li>
+            <li tabindex="0" class="footer-item">about</li>
+            <li tabindex="0" class="footer-item">careers</li>
+            <li tabindex="0" class="footer-item">contact</li>
+          </ul>
+          <div class="footer-block footer-social-block">
+            <svg tabindex="0" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22.5 2.5H18.75C17.0924 2.5 15.5027 3.15848 14.3306 4.33058C13.1585 5.50269 12.5 7.0924 12.5 8.75V12.5H8.75V17.5H12.5V27.5H17.5V17.5H21.25L22.5 12.5H17.5V8.75C17.5 8.41848 17.6317 8.10054 17.8661 7.86612C18.1005 7.6317 18.4185 7.5 18.75 7.5H22.5V2.5Z"
+                fill="inherit" />
+            </svg>
+            <svg tabindex="0" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.875 3.37508C24.7977 4.13499 23.6049 4.71621 22.3425 5.09633C21.665 4.31728 20.7645 3.76511 19.7629 3.5145C18.7613 3.26389 17.7069 3.32693 16.7423 3.69509C15.7777 4.06326 14.9495 4.71878 14.3696 5.57301C13.7897 6.42724 13.4862 7.43896 13.5 8.47133V9.59633C11.523 9.6476 9.56393 9.20912 7.79738 8.31996C6.03084 7.4308 4.51161 6.11855 3.375 4.50008C3.375 4.50008 -1.125 14.6251 9 19.1251C6.68309 20.6978 3.92305 21.4864 1.125 21.3751C11.25 27.0001 23.625 21.3751 23.625 8.43758C23.624 8.12422 23.5938 7.81163 23.535 7.50383C24.6832 6.37151 25.4934 4.94188 25.875 3.37508Z"
+                fill="inherit" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <svg tabindex="0" class="instagram-icon" width="27" height="27" viewBox="0 0 27 27" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M19.125 2.25H7.875C4.7684 2.25 2.25 4.7684 2.25 7.875V19.125C2.25 22.2316 4.7684 24.75 7.875 24.75H19.125C22.2316 24.75 24.75 22.2316 24.75 19.125V7.875C24.75 4.7684 22.2316 2.25 19.125 2.25Z"
+                fill="inherit" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M18.0002 12.7913C18.139 13.7276 17.9791 14.6838 17.5431 15.524C17.1072 16.3641 16.4174 17.0454 15.572 17.471C14.7265 17.8965 13.7684 18.0446 12.8339 17.8943C11.8994 17.7439 11.0361 17.3027 10.3669 16.6334C9.69757 15.9641 9.25636 15.1008 9.10598 14.1663C8.95561 13.2318 9.10373 12.2737 9.52928 11.4283C9.95482 10.5828 10.6361 9.89305 11.4763 9.45712C12.3164 9.02118 13.2726 8.86126 14.2089 9.0001C15.1639 9.14172 16.0481 9.58674 16.7308 10.2694C17.4135 10.9521 17.8585 11.8363 18.0002 12.7913Z"
+                stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M19.6875 7.3125H19.6987" stroke="inherit" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+
+          </div>
+        </div>
+        <div class="footer-pane footer-company-details">
+          <div class="footer-block">
+            <span class="footer-details">Chamber of Commerce: 63464101</span>
+            <span class="footer-details">VAT: NL 8552.47.502.B01</span>
+            <span tabindex="0" class="footer-details">Terms and conditions</span>
+          </div>
+          <div class="footer-block">
+            <span class="footer-details">© 2022 Dept Agency</span>
+          </div>
+        </div>
+
+      </footer>
+      <div tabindex="0" class="scroll-up-button">
+        <svg viewBox="0 0 18 36" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M8.20907 0.296031C8.44528 -0.0918603 8.99288 -0.100123 9.24011 0.280473L17.8959 13.6059C18.1678 14.0245 17.8754 14.5851 17.3853 14.5851H0.614676C0.132658 14.5851 -0.161205 14.041 0.0942641 13.6215L8.20907 0.296031Z"
+            fill="inherit" />
+          <path
+            d="M6.87176 8.28665C6.87176 7.9388 7.14652 7.6568 7.48546 7.6568H10.5539C10.8929 7.6568 11.1676 7.9388 11.1676 8.28665V35.3702C11.1676 35.718 10.8929 36 10.5539 36H7.48546C7.14652 36 6.87176 35.718 6.87176 35.3702V8.28665Z"
+            fill="inherit" />
+        </svg>
+        <span class="scroll-up-text">top</span>
+      </div>
+
+    </section>
+  </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="./src/js/main.js"></script>
+<script src="./src/js/casesData.js" defer></script>
+<script src="./src/js/enterWebsiteAnimation.js"></script>
+<script src="./src/js/formValidation.js"></script>
+
+</html>
