@@ -1,5 +1,9 @@
 # DEPT Assessment
 
+Made with html, scss, js - No need to install anything
+
+[_Live Preview_](https://vanillapixel.github.io/dept/) @ github pages
+
 ## PERSONAL NOTES
 
 If I had to design multiple pages I would have definitely chosen Next.js but given the fact that I just wanted to code the design and add animations without adding the filtering and form validation features. Then things escalated and all things considered, Next would have been a better choice eventually.
