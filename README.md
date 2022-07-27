@@ -6,7 +6,8 @@ Made with html, scss, js - No need to install anything
 
 ## PERSONAL NOTES
 
-If I had to design multiple pages I would have definitely chosen Next.js but given the fact that I just wanted to code the design and add animations without adding the filtering and form validation features. Then things escalated and all things considered, Next would have been a better choice eventually.
+- If I had to design multiple pages I would have definitely chosen Next.js but given the fact that I just wanted to code the design and add animations without adding the filtering and form validation features. Then things escalated and all things considered, Next would have been a better choice eventually.
+- The cases are injected from a .js file (component style). Obviously, this wouldn't be my choice on a production environment which would rather be via API call (axios) or CMS (wordpress).
 
 ## FEATURES
 
