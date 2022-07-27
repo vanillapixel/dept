@@ -117,7 +117,7 @@ scrollUpButton.addEventListener("keydown", (e) => {
 	}
 });
 
-window.addEventListener("scroll", closeMenu);
+window.addEventListener("scroll", hideNavbar);
 
 menuButton.addEventListener("click", toggleMenu);
 menuButton.addEventListener("keydown", (e) => {
