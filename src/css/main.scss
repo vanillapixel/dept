@@ -129,7 +129,7 @@ body {
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: var(--background-color-main);
+    background-color: var(--gray25);
   }
 }
 
@@ -560,6 +560,7 @@ section#cases-section {
       grid-column-start: 2;
       padding: 0 var(--spacing-xxl);
       line-height: 1.4;
+      animation: fadeInUp var(--transition-fast);
     }
 
     .case-title::first-letter {
